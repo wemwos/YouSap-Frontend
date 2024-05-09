@@ -1,0 +1,152 @@
+body {
+    background: linear-gradient(180deg, #1D1F1F, #022F2F);
+    height: 100%;
+    overflow: hidden;
+}
+
+.MainContainer {
+    position: absolute;
+}
+
+.Ball1 {
+    position: relative; 
+    top: -330px; 
+    left: 95px;
+}
+
+.Ball2 {
+    position: relative; 
+    top: -360px; 
+    left: 700px;
+}
+
+.EllipseIcon {
+    width: 180px;
+    height: 100px;
+}
+
+.Character {
+    position: relative; 
+    top: -310px; 
+    left: 370px;
+}
+
+.Char {
+    object-fit: contain;
+    width: 380px;
+}
+
+.HeaderText {
+    position: absolute;
+    top: -200px; 
+    left: 200px; 
+    color: white; 
+    z-index: 999; 
+}
+
+.HeaderText h1 {
+    font-size: 49px; 
+    margin-bottom: 10px;
+    font-weight: 600;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    
+}
+
+.Spantxt {
+    color: #06CABE;
+}
+
+.HeaderText h3 {
+    font-size: 23px;
+    margin-top: 20px;
+}
+ .logintxt {
+    color: #0be9da;
+    font-size: 20px;
+    
+ }
+
+ .logintxt:hover {
+    opacity: 0.8;   
+    color: #0be9da;    
+ }
+
+.SignUpContainer {
+    position: absolute; /* Change to absolute positioning */
+    top: -210px; /* Adjust as needed */
+    right: -1100px; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    width: 30vw; /* Add width */
+    height: 70vh; /* Add height */
+    /* border: 1px solid gray; */
+    z-index: 9999; /* Ensure it's above other elements */
+    padding: 20px;
+}
+
+.SignUpContainer h1 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.googleButton, .appleButton {
+    display: block;
+    width: 100%; /* Make buttons full-width */
+    padding: 10px 20px; /* Example padding */
+    margin-bottom: 10px; /* Example margin */
+    background-color: transparent; /* Example color for Google button */
+    color: white;
+    font-size: 16px; 
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    border: 3px solid #364C51;
+    border-radius: 5px;
+}
+
+.googleButton img , .appleButton img {
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+.googleButton:hover, .appleButton:hover {
+    opacity: 0.8; 
+    border-color: #0bf1e2;
+}
+
+.SignUpContainer hr {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    margin: 20px;
+    height: 3px;
+
+}
+
+.inputContainer {
+    margin-top: 20px; 
+}
+
+.inputBox {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 3px solid #364C51;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.signupbtn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #0AC1B6;
+}
+
+
+

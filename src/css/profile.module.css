@@ -1,7 +1,7 @@
 .TopContainer {
     position: relative;
     height: 70vh;
-    background-color: #191d1d9a;
+    background-color: #1c21217e;
 }
 
 .bg {
@@ -16,11 +16,13 @@
     border-radius: 0px;
     height: 250px;
     width: 1000px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adjust shadow properties as needed */
 }
+
 
 .ProfileInfo {
     position: absolute;
-    top: 65%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
@@ -42,3 +44,54 @@
 .Username {
     font-size: 16px;
 }
+
+.EditProfileButton {
+    background-color: transparent; 
+    color: #ffffff; 
+    border: 1px solid gray;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.EditProfileButton:hover {
+    background-color: #06CABE; 
+    border: 1px solid #06CABE;
+}
+
+.Separator {
+    width: 80vw;
+    border: none;
+    border-top: 2px solid #ccc; /* Example border color */
+    margin: 12px 0; /* Adjust margin as needed */
+}
+
+.Tabs {
+    display: flex;
+}
+
+.Tab {
+    padding: 0px 20px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    margin-bottom: 20px;
+}
+
+.Tab:hover {
+    border-color: #06CABE   ; /* Example color */
+}
+
+.Tab.active {
+    border-color: #06CABE; /* Example color */
+    font-weight: bold;
+}
+
+
+.Content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

@@ -5,12 +5,13 @@ import Home from '../img/home.png';
 import Home2 from '../img/home2.png'; 
 import User from '../img/user.png';
 import Bell from '../img/bell.png';
+import logo from '../img/yousap.png';
 
 function Header({activePage}) {
   return (
     <div className={styles.header}>
       <div className={styles.logoContainer}>
-        <img src="/path/to/logo.png" alt="Logo" className={styles.logo} />
+        <img src={logo} alt="Logo" className={styles.logo} />
         <h5>You<span className={styles.systemName}>Sapp</span></h5>
       </div>
       

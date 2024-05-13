@@ -22,6 +22,12 @@
     margin: 0 30px; /* Add some spacing between buttons */
     font-size: 12px;
     background-color: transparent;
+    color: #ddd;
+  }
+
+  .Buttons button:hover {
+    border: none;
+    background-color: #424242;
   }
 
   .textP {
@@ -38,8 +44,8 @@
   }
 
 .ProfilePicture {
-    width: 50px; 
-    height: 50px; /* Set the height */
+    width: 40px; 
+    height: 40px; /* Set the height */
     border-radius: 50%; /* Make it round */
     object-fit: cover; /* Ensure the image covers the entire space */
     margin-right: 10px; /* Optional: Add margin for spacing */

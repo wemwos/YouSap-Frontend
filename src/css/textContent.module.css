@@ -1,4 +1,3 @@
-/* textContent.module.css */
 .TextContent {
     border: 1px solid #424242;
     background-color: #1E2424;
@@ -19,6 +18,12 @@
     margin: 0 30px; /* Add some spacing between buttons */
     font-size: 12px;
     background-color: transparent;
+    color: #ddd;
+  }
+
+  .Buttons button:hover {
+    border: none;
+    background-color: #424242;
   }
   
   .textP {
@@ -32,11 +37,11 @@
   }
 
   .ProfilePicture {
-    width: 50px; /* Set the width */
-    height: 50px; /* Set the height */
-    border-radius: 50%; /* Make it round */
-    object-fit: cover; /* Ensure the image covers the entire space */
-    margin-right: 10px; /* Optional: Add margin for spacing */
+    width: 40px;
+    height: 40px; 
+    border-radius: 50%;
+    object-fit: cover; 
+    margin-right: 10px; 
   }
   
   

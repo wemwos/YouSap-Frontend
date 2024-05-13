@@ -28,6 +28,19 @@
     margin: 0 30px; /* Add some spacing between buttons */
     font-size: 12px;
     background-color: transparent;
+    color: #ddd;
+  }
+
+  .Buttons button:hover {
+    border: none;
+    background-color: #424242;
   }
   
+  .ProfilePicture {
+    width: 40px; /* Set the width */
+    height: 40px; /* Set the height */
+    border-radius: 50%; /* Make it round */
+    object-fit: cover; /* Ensure the image covers the entire space */
+    margin-right: 10px; /* Optional: Add margin for spacing */
+  }
   

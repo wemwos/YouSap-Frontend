@@ -1,16 +1,19 @@
 .UploadContent {
     border: 1px solid #424242;
     background-color: #1F2424;
+    width: 36vw;
     padding: 12px 12px 0px 12px;
     margin-bottom: 10px;
     border-radius: 8px;
+    display: flex;
+
   }
   
   .TextArea {
     background-color: #292F2F;
     border: 1px solid #424242;
     border-radius: 6px;
-    width: 100%;
+    width: 30vw;
     height: 40px; /* Adjust height as needed */
     overflow: hidden;
     padding: 8px;
@@ -27,8 +30,11 @@
     cursor: pointer;
   }
   
-  .FileInput {
-    margin-right: 10px;
-    padding: 10px 5px;
 
+  .UserImage {
+    width: 40px; 
+    height: 40px;   
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-right: 10px; 
   }

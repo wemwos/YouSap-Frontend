@@ -1,6 +1,6 @@
 .uploadModal_header {
     border-bottom: none;
-    background-color: #414141;
+    background-color: #2e2b2b;
   }
   
   .uploadModal_title {
@@ -10,10 +10,10 @@
   
   .uploadModal_body {
     padding: 20px;
-    background-color: #858383;
+    background: linear-gradient(135deg, #1D1F1F, #022F2F);
   }
   
-  /* Content Type Buttons */
+  
   .uploadModal_button {
     color: #ffffff;
     border-color: #ffff;
@@ -35,6 +35,7 @@
   .uploadModal_input {
     margin-top: 10px;
     background: transparent;
+    resize: none;
   }
   
   /* Upload Button */
@@ -48,4 +49,5 @@
     background-color: #0a9990;
     border-color: #0a9990;
   }
+  
   

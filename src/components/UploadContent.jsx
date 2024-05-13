@@ -1,8 +1,7 @@
-// UploadContent.jsx
 import React, { useState } from 'react';
 import styles from '../css/uploadContent.module.css';
 import UploadModal from '../components/UploadModal';
-
+import UserProfileImage from '../img/dp.png'; // Import the user profile image
 
 function UploadContent({ onUpload }) {
   const [content, setContent] = useState('');
@@ -28,12 +27,11 @@ function UploadContent({ onUpload }) {
     setFile(null);
   };
 
-
   const [show, setShow] = useState(false);
-const handleOpen = () => setShow(true);
-const [showModal, setShowModal] = useState(false);
-const handleCloseModal = () => setShowModal(false);
-const handleShowModal = () => setShowModal(true);
+  const handleOpen = () => setShow(true);
+  const [showModal, setShowModal] = useState(false);
+  const handleCloseModal = () => setShowModal(false);
+  const handleShowModal = () => setShowModal(true);
 
   return (
     <div className={styles.UploadContent}>
@@ -41,6 +39,9 @@ const handleShowModal = () => setShowModal(true);
                 show={show}
                 handleClose={() => setShow(false)}
             />
+      <div className={styles.UserImageContainer}>
+        <img src={UserProfileImage} alt="User Profile" className={styles.UserImage} />
+      </div>
       <form onSubmit={handleSubmit}>
         <textarea
           placeholder="What's on your mind?"
@@ -49,12 +50,8 @@ const handleShowModal = () => setShowModal(true);
           onClick={handleOpen}
           className={styles.TextArea}
         />
-        <input 
-          type="file" 
-          onChange={handleFileChange} 
-          className={styles.FileInput} 
-        />
-        <button type="submit" className={styles.Button}>Upload</button>
+          
+        
       </form>
     </div>
   );

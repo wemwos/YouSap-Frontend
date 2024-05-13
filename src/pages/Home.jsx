@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Layout from '../layouts/Layout';
 import styles from '../css/home.module.css';
 import AdCard from '../components/AdCard'; // Import the AdCard component
@@ -6,12 +6,14 @@ import TextContent from '../components/TextContent'; // Import the TextContent c
 import PhotoContent from '../components/PhotoContent'; // Import the PhotoContent component
 import VideoContent from '../components/VideoContent'; // Import the VideoContent component
 import UploadContent from '../components/UploadContent'; // Import the UploadContent component
-import UserImg from '../img/user1.png'; // Import the user image
+import UserImg from '../img/user1.png'; 
 import UserImg2 from '../img/george.png';
+import DecInd from '../img/dec.png';
+import vid from '../img/vid.mp4';
+
 
 function Home() {
   const handleUpload = (content) => {
-    // Handle the uploaded content
     console.log('Uploaded content:', content);
   };
 
@@ -35,7 +37,7 @@ function Home() {
       id: 2, 
       type: 'photo', 
       text: 'Me at the mothafucken zoo',
-      imageUrl: 'photo1.jpg', 
+      imageUrl: DecInd, 
       userId: 2,
       uploadTime: '2 hrs ago'
     },
@@ -43,7 +45,7 @@ function Home() {
       id: 3, 
       type: 'video', 
       text: 'Me at the mothafucken zoo  ',
-      videoUrl: 'video1.mp4', 
+      videoUrl: vid, 
       userId: 3,
       uploadTime: '3 hrs ago'
     }
@@ -53,6 +55,7 @@ function Home() {
     <Layout>
        <div className={styles.MainContainer}>
           <div className={styles.ContentContainer}>
+          
             <UploadContent onUpload={handleUpload} />
             {contents.map(content => {
               if (content.type === 'text') {

@@ -14,7 +14,6 @@ function Header({activePage}) {
         <h5>You<span className={styles.systemName}>Sapp</span></h5>
       </div>
       
-      {/* Search bar */}
       <input type="text" placeholder="Search" className={styles.searchBar} />
       
       {/* Home, Profile, and Bell icon */}

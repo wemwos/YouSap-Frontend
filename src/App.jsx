@@ -8,7 +8,7 @@ import AdminRoutes from './routes/AdminRoutes';
 import UserRoutes from './routes/UserRoutes';
 import UnauthenticatedRoutes from './routes/UnauthenticatedRoutes';
 import NotFound from './pages/NotFound';
-// import Profile from './pages/Profile';
+import Profile from './pages/Profile';
 
 
 function App() {
@@ -43,7 +43,7 @@ function App() {
 
         <Route element={<UserRoutes loggedIn={isLoggedIn}/>} >
           <Route path="/home" element={<Home />} />
-          {/* <Route path='/profile' element={<Profile />}/>       */}
+          <Route path='/profile' element={<Profile />}/>      
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
 

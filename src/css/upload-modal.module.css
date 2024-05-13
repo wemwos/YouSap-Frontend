@@ -1,0 +1,44 @@
+/* Modal Header */
+.uploadModal_header {
+    border-bottom: none;
+  }
+  
+  /* Modal Title */
+  .uploadModal_title {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Modal Body */
+  .uploadModal_body {
+    padding: 20px;
+  }
+  
+  /* Content Type Buttons */
+  .uploadModal_button {
+    color: #333;
+    border-color: #ccc;
+    margin-right: 10px;
+  }
+  
+  .uploadModal_button svg {
+    margin-right: 5px;
+  }
+  
+  /* File Input */
+  .uploadModal_input {
+    margin-top: 10px;
+  }
+  
+  /* Upload Button */
+  .uploadModal_uploadButton {
+    background-color: #007bff;
+    border-color: #007bff;
+    margin-top: 20px;
+  }
+  
+  .uploadModal_uploadButton:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  

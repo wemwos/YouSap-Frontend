@@ -1,6 +1,8 @@
 // UploadContent.jsx
 import React, { useState } from 'react';
 import styles from '../css/uploadContent.module.css';
+import UploadModal from '../components/UploadModal';
+
 
 function UploadContent({ onUpload }) {
   const [content, setContent] = useState('');
@@ -26,13 +28,25 @@ function UploadContent({ onUpload }) {
     setFile(null);
   };
 
+
+  const [show, setShow] = useState(false);
+const handleOpen = () => setShow(true);
+const [showModal, setShowModal] = useState(false);
+const handleCloseModal = () => setShowModal(false);
+const handleShowModal = () => setShowModal(true);
+
   return (
     <div className={styles.UploadContent}>
+      <UploadModal 
+                show={show}
+                handleClose={() => setShow(false)}
+            />
       <form onSubmit={handleSubmit}>
         <textarea
           placeholder="What's on your mind?"
           value={content}
           onChange={handleChange}
+          onClick={handleOpen}
           className={styles.TextArea}
         />
         <input 

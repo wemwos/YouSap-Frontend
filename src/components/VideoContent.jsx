@@ -1,7 +1,7 @@
 // VideoContent.jsx
 import React, { useState } from 'react';
 import styles from '../css/videoContent.module.css';
-import { FaThumbsUp, FaComment, FaShare } from 'react-icons/fa'; // Import icons from Font Awesome
+import { FaThumbsUp, FaComment, FaShare } from 'react-icons/fa'; 
 
 function VideoContent({ text, videoUrl, profilePicture, userName, uploadTime }) {
   const [likeCount, setLikeCount] = useState(0);

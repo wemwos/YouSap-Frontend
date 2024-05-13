@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Register from './pages/Register';
 import Login from './pages/Login';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import Home from './pages/Home';
+import Home from './pages/Home';
 import AdminRoutes from './routes/AdminRoutes';
 import UserRoutes from './routes/UserRoutes';
 import UnauthenticatedRoutes from './routes/UnauthenticatedRoutes';
@@ -38,17 +38,15 @@ function App() {
         </Route>
         
         <Route element={<AdminRoutes isAdmin={role === 'admin'} />} >
-          {/* <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/artist_management" element={<ArtistManagement />} />
-          <Route path="/user_management" element={<UserManagement />} />
-          <Route path="/content_management" element={<ContentManagement />} /> */}
+        {/* Routes ngadi para admin gar */}
         </Route>
 
         <Route element={<UserRoutes loggedIn={isLoggedIn}/>} >
-          {/* <Route path="/home" element={<Home />} /> */}
+          <Route path="/home" element={<Home />} />
           {/* <Route path='/profile' element={<Profile />}/>       */}
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
+
           
         </Route>
 

@@ -1,0 +1,32 @@
+/* ad.module.css */
+.AdCard {
+    display: flex;
+    align-items: center;
+    border: 1px solid #424242;
+    background-color: #1E2424;
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .AdImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 12px;
+  }
+  
+  .AdContent {
+    flex: 1;
+  }
+  
+  .AdTitle {
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+  
+  .AdDescription {
+    font-size: 14px;
+    color: #acacac;
+  }
+  

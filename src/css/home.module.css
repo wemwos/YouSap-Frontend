@@ -1,0 +1,30 @@
+  
+  .MainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    width:100vw;
+    height: 100vh;
+    overflow-y: auto;
+
+  }
+  
+  .ContentContainer {
+    margin-top: 20px;
+    flex: 1; 
+    height: 100%;
+    max-width: 500px; 
+  }
+  
+  .SideNavContainer {
+  margin-top: 20px;
+  margin-left: 30px;
+  height: 100vh; /* Take full height of the viewport */
+  width: 220px; 
+  position: sticky; 
+  top: 20px;
+
+  }
+  
+

@@ -13,7 +13,7 @@ function Register() {
         <div className={styles.MainContainer}>
             <div className={styles.HeaderText}> 
                 <h1>Welcome!</h1>
-                <h1>SignUp to You<span className={styles.Spantxt}>Sap</span></h1>
+                <h1>SignUp to You<span className={styles.Spantxt}>Sapp</span></h1>
                 <h3>if you already have an <br></br> account you can</h3> 
                 <Link to="/login" className={styles.logintxt}>Sign in here!</Link>
             </div>

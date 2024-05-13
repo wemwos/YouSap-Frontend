@@ -11,7 +11,7 @@ body {
 .Ball1 {
     position: relative; 
     top: -330px; 
-    left: 95px;
+    left: 130px;
 }
 
 .Ball2 {
@@ -39,7 +39,7 @@ body {
 .HeaderText {
     position: absolute;
     top: -200px; 
-    left: 200px; 
+    left: 150px; 
     color: white; 
     z-index: 999; 
 }
@@ -74,7 +74,7 @@ body {
 
 .SignInContainer {
     position: absolute; /* Change to absolute positioning */
-    top: -210px; /* Adjust as needed */
+    top: -230px; /* Adjust as needed */
     right: -1100px; /* Center horizontally */
     transform: translateX(-50%); /* Center horizontally */
     width: 30vw; /* Add width */
@@ -87,7 +87,7 @@ body {
 .SignInContainer h1 {
     color: #FFFFFF;
     text-align: center;
-    font-size: 45px;
+    font-size: 50px;
     font-weight: bold;
     margin-bottom: 20px;
 }

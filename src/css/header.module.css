@@ -1,0 +1,71 @@
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #2C2F2F; 
+    color: #fff; 
+  }
+  
+  .logoContainer {
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto; 
+    cursor: pointer;
+  }
+  
+  .logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .logoContainer h5 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+  .systemName {
+    font-size: 1.5rem;
+    color: #06CABE;
+  }
+  
+  .searchBar {
+    flex: 0 0 auto;
+    width: 30vw;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    background-color: #383939;
+  }
+  
+  .iconContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .icon {
+    width: 30px; 
+    height: 30px; 
+    margin-right: 10px; 
+    cursor: pointer;
+  }
+  
+  .profileSettings {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profilePic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .profileName {
+    font-weight: bold;
+  }
+  

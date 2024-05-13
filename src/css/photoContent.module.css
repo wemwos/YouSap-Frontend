@@ -1,0 +1,46 @@
+.PhotoContent {
+    border: 1px solid #424242;
+    background-color: #1E2424;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 10px;
+    color: #ddd;
+  }
+  
+  .Image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .Buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    ;
+}
+  
+  .Buttons button {
+    margin: 0 30px; /* Add some spacing between buttons */
+    font-size: 12px;
+    background-color: transparent;
+  }
+
+  .textP {
+    font-size: 13px;
+    margin-top: 10px;
+  }  
+
+  .UserInfo {
+    display: flex;
+    flex-direction: row;
+  }
+
+.ProfilePicture {
+    width: 50px; /* Set the width */
+    height: 50px; /* Set the height */
+    border-radius: 50%; /* Make it round */
+    object-fit: cover; /* Ensure the image covers the entire space */
+    margin-right: 10px; /* Optional: Add margin for spacing */
+  }
+  
+  

@@ -1,44 +1,51 @@
-/* Modal Header */
 .uploadModal_header {
     border-bottom: none;
+    background-color: #414141;
   }
   
-  /* Modal Title */
   .uploadModal_title {
-    color: #333;
+    color: #e6e6e6;
     font-weight: bold;
   }
   
-  /* Modal Body */
   .uploadModal_body {
     padding: 20px;
+    background-color: #858383;
   }
   
   /* Content Type Buttons */
   .uploadModal_button {
-    color: #333;
-    border-color: #ccc;
+    color: #ffffff;
+    border-color: #ffff;
     margin-right: 10px;
+    background: transparent;
+  }
+
+  .uploadModal_button:hover {
+    background-color: #0a9990;
+    border-color: #0a9990;
   }
   
   .uploadModal_button svg {
     margin-right: 5px;
+    background: transparent;
   }
   
   /* File Input */
   .uploadModal_input {
     margin-top: 10px;
+    background: transparent;
   }
   
   /* Upload Button */
   .uploadModal_uploadButton {
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: #06CABE;
+    border-color: #06CABE;
     margin-top: 20px;
   }
   
   .uploadModal_uploadButton:hover {
-    background-color: #0056b3;
-    border-color: #0056b3;
+    background-color: #0a9990;
+    border-color: #0a9990;
   }
   
